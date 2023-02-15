@@ -1,0 +1,13 @@
+.photo-grid {
+  display: grid;
+  /* margin: 0 48px; */
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  grid-template-rows: repeat(3, 1fr);
+  box-sizing: border-box;
+  gap: 16px;
+  justify-content: center;
+  padding: 92px 48px;
+}
+.photo-grid__item {
+  width: 100%;
+}

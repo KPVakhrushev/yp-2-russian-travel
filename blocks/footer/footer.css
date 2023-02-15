@@ -1,0 +1,24 @@
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 94px;
+  width: calc(100% - 48px * 2);
+  margin: auto;
+}
+.footer__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.footer__copyright {
+  margin: 0 0 24px 0;
+  justify-self: end;
+}
