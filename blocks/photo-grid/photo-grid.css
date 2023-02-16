@@ -1,12 +1,26 @@
 .photo-grid {
   display: grid;
-  /* margin: 0 48px; */
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
-  grid-template-rows: repeat(3, 1fr);
-  box-sizing: border-box;
   gap: 16px;
   justify-content: center;
-  padding: 92px 48px;
+}
+@media screen and (max-width:1200px) {
+  .photo-grid  {
+    gap: 14px;
+
+  }
+}
+@media screen and (max-width:1000px) {
+  .photo-grid  {
+    gap: 16px;
+
+  }
+}
+@media screen and (max-width:700px) {
+  .photo-grid  {
+    gap: 12px;
+    grid-template-columns: 1fr;
+  }
 }
 .photo-grid__item {
   width: 100%;
