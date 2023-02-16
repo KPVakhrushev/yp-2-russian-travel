@@ -1,0 +1,19 @@
+
+.page__places {
+  margin: 0 148px;
+}
+@media screen and (max-width:1200px) {
+  .page__places {
+    margin: 0 48px;
+  }
+}
+@media screen and (max-width:1000px) {
+  .page__places {
+    margin: 0 24px;
+  }
+}
+@media screen and (max-width:700px) {
+  .page__places {
+    margin: 0;
+  }
+}
