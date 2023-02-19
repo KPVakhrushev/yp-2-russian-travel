@@ -6,7 +6,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   align-self: flex-start;
-  margin-top: 8px;
+  margin: 8px 0 0 0;
   display: inline-block;
 }
 @media screen and (max-width:1000px) {
