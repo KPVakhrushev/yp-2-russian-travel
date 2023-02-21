@@ -13,6 +13,7 @@
     padding-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
+    margin: 0;
   }
   .footer__link:last-child {
     padding-bottom: 48px;
