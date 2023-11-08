@@ -13,7 +13,7 @@
 
 **Демонстрация**
 
-Проект размещен [в github pages](https://kpvakhrushev.github.io/russian-travel/)
+Проект размещен [в github pages](https://kpvakhrushev.github.io/yp-2-russian-travel/)
 
 **Планы по доработке проекта**
 
